@@ -31,3 +31,9 @@ Aplicação .net de exemplo com um Dockerfile para realizar alguns testes na pub
 7. Push da imagem para o seu ACR
 
    `docker push myawesomeregistry.azurecr.io/optionalrepo/myapp:1.0`
+
+# Deploy do código
+
+Para fazer o deploy do código diretamente em um Web App, execute:
+
+   `az webapp up -n MyUniqueAppName -g MyGroup`
